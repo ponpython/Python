@@ -78,7 +78,15 @@ A5 = {i:i*i for i in A1}
 A6 = [[i,i*i] for i in A1]
 
 print(A0)
-print(A1)
+print(A1)def f(x,l=[]):
+   for i in range(x):        
+      l.append(i*i)    
+      print(l) 
+      
+f(2)
+f(3,[3,2,1])
+f(3)
+
 print(A2)
 print(A3)
 print(A4)
@@ -93,13 +101,5 @@ Q7:
 
 What is the output of the below code ?
 
-def f(x,l=[]):
-    for i in range(x):
-        l.append(i*i)
-    print(l) 
-
-f(2)
-f(3,[3,2,1])
-f(3)
 
 ###########################################################################################################################
